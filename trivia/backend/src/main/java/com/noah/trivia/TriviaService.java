@@ -26,7 +26,6 @@ public class TriviaService {
         if (difficulty != null && !difficulty.isBlank()) {
             url += "&difficulty=" + difficulty;
         }
-        url += "&encode=url3986";
 
         OpenTDBResponse openTDBResponse = restTemplate.getForObject(url, OpenTDBResponse.class);
 
