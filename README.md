@@ -52,7 +52,7 @@ Navigate to the backend folder:
 - cd backend
 
 Start the backend:
-- ./mvnw spring-boot:run
+- mvnw spring-boot:run
 
 The backend runs on:
 - http://localhost:8080
